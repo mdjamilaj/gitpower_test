@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+    margin-top: 16%;
+    font-size: 30px;
+    line-height: 56px;
+}
+button.btn {
+    font-size: 34px;
+    height: 50px;
+    width: 180px;
+    background: linear-gradient(180deg, #b4ff00, #ea27db);
+}
+#demo{
+width: 200px;
+  height: 50px;
+  background-color: red;
+  -webkit-animation-name: example; 
+  -webkit-animation-duration: 4s; 
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+} 
+@keyframes example {
+    0%   {transform: translate(270%, 10px);}
+    25%  {background-color: yellow;transform: translate(270%, 10px);}
+    50%  {background-color: blue;transform: translate(270%, 10px);}
+    100% {background-color: green;transform: translate(270%, 10px);}
+  }
